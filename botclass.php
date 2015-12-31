@@ -1,6 +1,6 @@
 <?php	
 	class MyTelegramBot{
-		private $token="140012437:AAEVpWTIWvH0PaBNKNRhbXCXmXo_R18Hy2w";
+		private $token="token";
 		private $website="https://api.telegram.org/bot140012437:AAEVpWTIWvH0PaBNKNRhbXCXmXo_R18Hy2w";
 		private $name="@gtxtestbot";
 		private $count=0;
