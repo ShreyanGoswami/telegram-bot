@@ -63,7 +63,7 @@
 		}
 		
 		function fetchMovie($movie){
-			$json=file_get_contents("http://www.omdbapi.com/?t=".$movie."&y=&plot=short&r=json");
+			$json=file_get_contents("http://www.omdbapi.com/?t=".$movie."&y=&plot=full&r=json");
 			$info=json_decode($json,true);
 			return $info;
 		}
