@@ -1,7 +1,7 @@
 <?php	
 	class MyTelegramBot{
 		private $website="https://api.telegram.org/bot<token>";
-		private $name="@gtxtestbot";
+		private $name="@ezmoviebot";
 		private $count=0;
 		private $userlist;
 		private $flags;
